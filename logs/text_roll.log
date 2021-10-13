@@ -1,0 +1,7 @@
+12-10-2021 21:10:36 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - 1.5707963267948966
+12-10-2021 21:12:49 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,570796, 1,570796, 0,785398, 0,785398}
+12-10-2021 21:13:46 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,5707963268, 1,5707963268, 0,7853981634, 0,7853981634}
+12-10-2021 21:14:12 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:17:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:26:19 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:26:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
