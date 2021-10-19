@@ -2,6 +2,9 @@ package io.olen4ixxx.triangle;
 
 import io.olen4ixxx.triangle.entity.CustomPoint;
 import io.olen4ixxx.triangle.entity.CustomTriangle;
+import io.olen4ixxx.triangle.repository.CustomRepository;
+import io.olen4ixxx.triangle.repository.CustomSpecification;
+import io.olen4ixxx.triangle.repository.impl.IsInRadiusOfOSpecification;
 import io.olen4ixxx.triangle.service.TriangleCalculation;
 import io.olen4ixxx.triangle.service.impl.TriangleCalculationService;
 import io.olen4ixxx.triangle.validator.CustomTriangleValidator;
@@ -24,5 +27,22 @@ public class Main {
         System.out.println("isObtuse: " + triangleCalculation.isObtuse(customTriangle));
         System.out.println("isRegular: " + triangleCalculation.isRegular(customTriangle));
         System.out.println("isIsosceles: " + triangleCalculation.isIsosceles(customTriangle));
+
+        double d = 5.249;
+        Double.hashCode(d);
+        System.out.println(Double.toHexString(d));
+        long l = Double.doubleToLongBits(d);
+        System.out.println(Long.toHexString(l));
+        System.out.println(Integer.toHexString((int)l));
+        byte i = (byte) l;
+        i = -2^2;
+        System.out.println(i);
+        System.out.println(Integer.toBinaryString(i));
+        System.out.println(Integer.toBinaryString(i>>>1));
+        System.out.println(Integer.toBinaryString(i>>1));
+
+        CustomRepository repository = new CustomRepository();
+        CustomSpecification specification = new IsInRadiusOfOSpecification(77);
+        System.out.println(repository.query(specification));
     }
 }
