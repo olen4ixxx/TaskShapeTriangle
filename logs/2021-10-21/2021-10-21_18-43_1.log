@@ -1,0 +1,64 @@
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - TriangleFileReader: readLines(data/triangle.txt)
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 18:20:07 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([0.0, 0.0, 10.0, 0.0, 0.0, 10.0])
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:20:07 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}}
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:20:07 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 1.0, 3.1, 1.0, 1.0, 10.1])
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 18:20:07 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 1, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}}
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:20:07 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.Main - Id generated: 1
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - TriangleFileReader: readLines(data/triangle.txt)
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([0.0, 0.0, 10.0, 0.0, 0.0, 10.0])
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 1
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}}
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 1.0, 3.1, 1.0, 1.0, 10.1])
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 2
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 18:42:37 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}}
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:42:37 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.Main - Id generated: 0
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - TriangleFileReader: readLines(data/triangle.txt)
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([0.0, 0.0, 10.0, 0.0, 0.0, 10.0])
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 1
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}}
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})

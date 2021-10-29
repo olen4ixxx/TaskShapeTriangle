@@ -1,7 +1,5 @@
-12-10-2021 21:10:36 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - 1.5707963267948966
-12-10-2021 21:12:49 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,570796, 1,570796, 0,785398, 0,785398}
-12-10-2021 21:13:46 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,5707963268, 1,5707963268, 0,7853981634, 0,7853981634}
-12-10-2021 21:14:12 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
-12-10-2021 21:17:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
-12-10-2021 21:26:19 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
-12-10-2021 21:26:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+30-10-2021 00:08:30 [TestNG-method=testCreateCustomTriangle-1] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}}
+30-10-2021 00:08:30 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 3.0, 4.0, 5.0])
+30-10-2021 00:08:30 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle
+30-10-2021 00:08:30 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 2.0, 4.0, 3.0, 6.0])
+30-10-2021 00:08:30 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle

@@ -12,13 +12,15 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class TriangleFileReader implements TriangleReader {
     private static final Logger logger = LogManager.getLogger();
 
     @Override
-    public List<String> readLines(String stringPath) throws CustomTriangleException { //todo
-        logger.info("ArrayFileReader: readLines({})", stringPath);
+    public List<String> readLines(String stringPath) throws CustomTriangleException {
+        logger.info("TriangleFileReader: readLines({})", stringPath);
         ClassLoader classLoader = getClass().getClassLoader();
         URL resource = classLoader.getResource(stringPath);
         if (resource == null) {
@@ -34,8 +36,8 @@ public class TriangleFileReader implements TriangleReader {
         }
         Path path = Path.of(uri);
         List<String> linesFromFile;
-        try {
-            linesFromFile = Files .readAllLines(path);
+        try (Stream<String> lines = Files.lines(path)) {
+            linesFromFile = lines.collect(Collectors.toList());
         } catch (IOException e) {
             logger.error("Check the file ({})", stringPath);
             throw new CustomTriangleException("Check the file", e);

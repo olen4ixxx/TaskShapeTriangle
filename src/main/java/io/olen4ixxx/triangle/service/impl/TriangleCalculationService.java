@@ -13,61 +13,81 @@ public class TriangleCalculationService implements TriangleCalculation {
     private static final Logger logger = LogManager.getLogger();
     private static final double EPSILON = 0.001;
 
-    public double triangleSquare(CustomTriangle customTriangle) { //fixme
+    public double triangleSquare(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: triangleSquare({})", customTriangle);
         double a = triangleSides(customTriangle).get("a");
         double b = triangleSides(customTriangle).get("b");
         double c = triangleSides(customTriangle).get("c");
+        double square = 0.25 * Math.sqrt((a + b - c) * (a - b + c) * (-a + b + c) * (a + b + c));
+        logger.info("square: {}", square);
         //Using Heron's formula
-        return 0.25 * Math.sqrt((a + b - c) * (a - b + c) * (-a + b + c) * (a + b + c));
-//        return 0.5 * Math.abs((x2 - x1) * (y3 - y1) - (x3 - x1) * (y2 - y1));
+        return square;
     }
 
-    public double trianglePerimeter(CustomTriangle customTriangle) { //fixme
+    public double trianglePerimeter(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: trianglePerimeter({})", customTriangle);
         double a = triangleSides(customTriangle).get("a");
         double b = triangleSides(customTriangle).get("b");
         double c = triangleSides(customTriangle).get("c");
-        return a + b + c;
+        double perimeter = a + b + c;
+        logger.info("perimeter: {}", perimeter);
+        return perimeter;
     }
 
-    public boolean isAcute(CustomTriangle customTriangle) { //fixme
+    public boolean isAcute(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: isAcute({})", customTriangle);
         double abAngle = triangleAngles(customTriangle).get("abAngle");
         double acAngle = triangleAngles(customTriangle).get("acAngle");
         double cbAngle = triangleAngles(customTriangle).get("cbAngle");
-        return abAngle - Math.PI / 2 < -EPSILON
+        boolean isAcute = abAngle - Math.PI / 2 < -EPSILON
                 && acAngle - Math.PI / 2 < -EPSILON
                 && cbAngle - Math.PI / 2 < -EPSILON;
+        logger.info("isAcute: {}", isAcute);
+        return isAcute;
     }
 
-    public boolean isObtuse(CustomTriangle customTriangle) { //fixme
+    public boolean isObtuse(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: isObtuse({})", customTriangle);
         double abAngle = triangleAngles(customTriangle).get("abAngle");
         double acAngle = triangleAngles(customTriangle).get("acAngle");
         double cbAngle = triangleAngles(customTriangle).get("cbAngle");
-        return abAngle - Math.PI / 2 > EPSILON
+        boolean isObtuse = abAngle - Math.PI / 2 > EPSILON
                 || acAngle - Math.PI / 2 > EPSILON
                 || cbAngle - Math.PI / 2 > EPSILON;
+        logger.info("isObtuse: {}", isObtuse);
+        return isObtuse;
     }
 
-    public boolean isRight(CustomTriangle customTriangle) { //fixme
+    public boolean isRight(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: isRight({})", customTriangle);
         double abAngle = triangleAngles(customTriangle).get("abAngle");
         double acAngle = triangleAngles(customTriangle).get("acAngle");
         double cbAngle = triangleAngles(customTriangle).get("cbAngle");
-        return Math.abs(abAngle - Math.PI / 2) < EPSILON
+        boolean isRight = Math.abs(abAngle - Math.PI / 2) < EPSILON
                 || Math.abs(acAngle - Math.PI / 2) < EPSILON
                 || Math.abs(cbAngle - Math.PI / 2) < EPSILON;
+        logger.info("isRight: {}", isRight);
+        return isRight;
     }
 
-    public boolean isRegular(CustomTriangle customTriangle) { //fixme
+    public boolean isRegular(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: isRegular({})", customTriangle);
         double a = triangleSides(customTriangle).get("a");
         double b = triangleSides(customTriangle).get("b");
         double c = triangleSides(customTriangle).get("c");
-        return Double.compare(a, b) == 0 && Double.compare(a, c) == 0;
+        boolean isRegular = Double.compare(a, b) == 0 && Double.compare(a, c) == 0;
+        logger.info("isRegular: {}", isRegular);
+        return isRegular;
     }
 
-    public boolean isIsosceles(CustomTriangle customTriangle) { //fixme
+    public boolean isIsosceles(CustomTriangle customTriangle) {
+        logger.info("TriangleCalculationService: isIsosceles({})", customTriangle);
         double a = triangleSides(customTriangle).get("a");
         double b = triangleSides(customTriangle).get("b");
         double c = triangleSides(customTriangle).get("c");
-        return Double.compare(a, b) == 0 || Double.compare(a, c) == 0 || Double.compare(b, c) == 0;
+        boolean isIsosceles = Double.compare(a, b) == 0 || Double.compare(a, c) == 0 || Double.compare(b, c) == 0;
+        logger.info("isIsosceles: {}", isIsosceles);
+        return isIsosceles;
     }
 
     private Map<String, Double> triangleSides(CustomTriangle customTriangle) {

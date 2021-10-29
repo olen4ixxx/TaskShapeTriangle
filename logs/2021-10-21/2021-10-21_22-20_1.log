@@ -1,0 +1,67 @@
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 34.14213562373095
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 1, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{0,00, 10,00}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 50.0
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 1.0, 3.1, 1.0, 1.0, 10.1])
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 2
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 18:43:14 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}}
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.539164844888433
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{1,00, 1,00}, Point{3,10, 1,00}, Point{1,00, 10,10}})
+21-10-2021 18:43:14 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 9.554999999999998
+21-10-2021 19:40:34 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - TriangleFileReader: readLines(data/wrongName.txt)
+21-10-2021 19:40:34 [main] ERROR olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is not found (data/wrongName.txt)
+21-10-2021 19:53:46 [TestNG-method=testReadLines-1] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - TriangleFileReader: readLines(data/triangleTest.txt)
+21-10-2021 19:53:46 [TestNG-method=testReadLines-1] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 20:02:22 [main] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates(null)
+21-10-2021 20:02:22 [main] ERROR olen4ixxx.triangle.parser.impl.CustomTriangleParser - List is empty or null
+21-10-2021 20:17:46 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, , 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 20:17:46 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 20:28:43 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, , 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 20:28:43 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 20:50:27 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - LinesToCustomTriangleParser: parseLinesToTriangleCoordinates([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, , 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 20:50:27 [TestNG-method=testParseLinesToTriangleCoordinates-1] INFO  olen4ixxx.triangle.parser.impl.CustomTriangleParser - listOfTriangleCoordinates: [[0.0, 0.0, 10.0, 0.0, 0.0, 10.0], [1.0, 1.0, 3.1, 1.0, 1.0, 10.1]]
+21-10-2021 21:39:45 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 3.0, 4.0, 5.0])
+21-10-2021 21:39:45 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle
+21-10-2021 21:39:45 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 2.0, 4.0, 3.0, 6.0])
+21-10-2021 21:39:45 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle
+21-10-2021 21:40:48 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 3.0, 4.0, 5.0])
+21-10-2021 21:40:48 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle
+21-10-2021 21:40:48 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([1.0, 2.0, 2.0, 4.0, 3.0, 6.0])
+21-10-2021 21:40:48 [main] ERROR io.olen4ixxx.triangle.entity.CustomTriangleFactory - Check the array: Points do not define a triangle
+21-10-2021 21:48:09 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 1
+21-10-2021 21:48:09 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([-1.0, 2.0, 2.0, 4.0, 3.0, 6.0])
+21-10-2021 21:48:09 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 2
+21-10-2021 21:48:09 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}})
+21-10-2021 21:48:09 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 11.498473502456159
+21-10-2021 21:48:09 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}})
+21-10-2021 21:48:09 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 1.9999999999999978
+21-10-2021 21:48:09 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}}
+21-10-2021 21:51:57 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 1
+21-10-2021 21:51:57 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle([-1.0, 2.0, 2.0, 4.0, 3.0, 6.0])
+21-10-2021 21:51:57 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 2
+21-10-2021 21:51:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}})
+21-10-2021 21:51:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 11.498473502456159
+21-10-2021 21:51:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}})
+21-10-2021 21:51:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 1.9999999999999978
+21-10-2021 21:51:57 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{-1,00, 2,00}, Point{2,00, 4,00}, Point{3,00, 6,00}}
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 1
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 2
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 3
+21-10-2021 22:20:07 [TestNG-method=testIsAcute-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isAcute(Triangle = {id: 2, Point{5,00, 8,66}, Point{10,00, 0,00}, Point{0,00, 0,00}})
+21-10-2021 22:20:07 [TestNG-method=testIsAcute-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isAcute: true
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 4
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 5
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 6
+21-10-2021 22:20:07 [TestNG-method=testIsIsosceles-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isIsosceles(Triangle = {id: 4, Point{0,00, -10,00}, Point{-10,00, 0,00}, Point{0,00, 0,00}})
+21-10-2021 22:20:07 [TestNG-method=testIsIsosceles-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isIsosceles: true
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 7
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 8
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 9
+21-10-2021 22:20:07 [TestNG-method=testIsObtuse-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isObtuse(Triangle = {id: 9, Point{0,00, 10,00}, Point{10,00, 0,00}, Point{1,00, 0,00}})
+21-10-2021 22:20:07 [TestNG-method=testIsObtuse-1] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isObtuse: true
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 10
+21-10-2021 22:20:07 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 11

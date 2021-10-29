@@ -1,0 +1,66 @@
+12-10-2021 21:10:36 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - 1.5707963267948966
+12-10-2021 21:12:49 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,570796, 1,570796, 0,785398, 0,785398}
+12-10-2021 21:13:46 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,5707963268, 1,5707963268, 0,7853981634, 0,7853981634}
+12-10-2021 21:14:12 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:17:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:26:19 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+12-10-2021 21:26:57 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - {1,57079632679489660000, 1,57079632679489680000, 0,7853981634, 0,7853981634}
+20-10-2021 16:14:34 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+20-10-2021 16:14:34 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+20-10-2021 16:14:34 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 3.1 0.0 0.0  3.1, 1.0 1.0 3.1 1.0 1.0  3.1])
+20-10-2021 16:20:06 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+20-10-2021 16:20:06 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+20-10-2021 16:20:06 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 3.1 0.0 0.0  3.1, 1.0 1.0 3.1 1.0 1.0  3.1])
+20-10-2021 16:22:41 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+20-10-2021 16:22:41 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+20-10-2021 16:22:41 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 3.1 0.0 0.0  3.1, 1.0 1.0 3.1 1.0 1.0  3.1])
+20-10-2021 16:22:41 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 3.1, 0.0, 0.0, 3.1, 1.0, 1.0, 3.1, 1.0, 1.0, 3.1]
+20-10-2021 16:23:50 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+20-10-2021 16:23:50 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+20-10-2021 16:23:50 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 3.1 0.0 0.0  3.1, 1.0 1.0 3.1 1.0 1.0  3.1])
+20-10-2021 16:23:50 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 3.1, 0.0, 0.0, 3.1, 1.0, 1.0, 3.1, 1.0, 1.0, 3.1]
+20-10-2021 16:24:48 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+20-10-2021 16:24:48 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+20-10-2021 16:24:48 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+20-10-2021 16:24:48 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:18:25 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:18:25 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:18:25 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:18:25 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:19:22 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:19:22 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:19:22 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:19:22 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:21:13 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:21:13 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:21:13 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:21:13 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:25:49 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:25:49 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:25:49 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:25:49 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:31:45 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:31:45 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:31:45 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:31:45 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:38:49 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:38:49 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:38:49 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:38:49 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:45:38 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - ArrayFileReader: readLines(data/triangle.txt)
+21-10-2021 14:45:38 [main] INFO  olen4ixxx.triangle.filereader.impl.TriangleFileReader - File is read
+21-10-2021 14:45:38 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - LinesToCustomArrayMapper: mapLinesToArray([tt, 1 t, 0.0 0.0 10.0 0.0 0.0  10.0, 1.0 1.0 3.1 1.0 1.0  10.1])
+21-10-2021 14:45:38 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - coordinatesList: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 14:45:38 [main] INFO  olen4ixxx.triangle.parser.impl.LinesToCustomTriangleParser - listOfTriangleCoordinates: [0.0, 0.0, 10.0, 0.0, 0.0, 10.0, 1.0, 1.0, 3.1, 1.0, 1.0, 10.1]
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 30.0
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 43.30127018922193
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isRight(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isRight: false
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isAcute(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isAcute: true
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isObtuse(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isObtuse: false
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: isRegular(Triangle = {id: 0, Point{0,00, 0,00}, Point{10,00, 0,00}, Point{5,00, 8,66}})
+21-10-2021 15:16:21 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - isRegular: true

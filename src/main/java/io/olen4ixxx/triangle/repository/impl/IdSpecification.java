@@ -4,7 +4,7 @@ import io.olen4ixxx.triangle.entity.CustomTriangle;
 import io.olen4ixxx.triangle.repository.CustomSpecification;
 
 public class IdSpecification implements CustomSpecification {
-    private int id;
+    private final int id;
 
     public IdSpecification(int id) {
         this.id = id;

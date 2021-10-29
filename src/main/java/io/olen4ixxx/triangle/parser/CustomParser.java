@@ -1,9 +1,9 @@
 package io.olen4ixxx.triangle.parser;
 
-import io.olen4ixxx.triangle.entity.CustomTriangle;
+import io.olen4ixxx.triangle.exception.CustomTriangleException;
 
 import java.util.List;
 
 public interface CustomParser {
-    CustomTriangle parseLinesToTriangle(List<String> lines);
+    List<double[]> parseLinesToTriangleCoordinates(List<String> lines) throws CustomTriangleException;
 }

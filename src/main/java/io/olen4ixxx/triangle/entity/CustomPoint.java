@@ -1,7 +1,8 @@
 package io.olen4ixxx.triangle.entity;
 
 public class CustomPoint {
-    private double x, y;
+    private double x;
+    private double y;
 
     public CustomPoint(double x, double y) {
         this.x = x;
@@ -37,8 +38,12 @@ public class CustomPoint {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return true;
+        }
         CustomPoint otherPoint = (CustomPoint) o;
         return Double.compare(otherPoint.x, x) == 0 && Double.compare(otherPoint.y, y) == 0;
     }

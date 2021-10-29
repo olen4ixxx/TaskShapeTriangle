@@ -1,0 +1,64 @@
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 7.000000000000005
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 2, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}}
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(3.0, 2.0, 3.0, 4.0, 5.0, -6.0)
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 3
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 3, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.44425027842089
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 3, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 2.000000000000015
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 3, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}}
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(1.0, 2.0, 3.0, 4.0, 0.5, 0.6)
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 4
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 4, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 8.535223568679879
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 4, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 0.9000000000000056
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 4, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}}
+28-10-2021 23:51:16 [TestNG-method=testQueryFirstQuadrant-1] INFO  io.olen4ixxx.triangle.repository.CustomRepository - queryList from repository: [Triangle = {id: 4, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}}]
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(2.0, 2.0, 3.0, 4.0, -5.0, -6.0)
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 5
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 5, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 25.672462265100137
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 5, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 3.0000000000000244
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 5, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}}
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(4.0, 2.0, 3.0, 4.0, -5.0, 6.0)
+28-10-2021 23:51:16 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 6
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 6, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}})
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.331137030531217
+28-10-2021 23:51:16 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 6, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 7.000000000000005
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 6, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}}
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(3.0, 2.0, 3.0, 4.0, 5.0, -6.0)
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 7
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 7, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.44425027842089
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 7, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 2.000000000000015
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 7, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}}
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(1.0, 2.0, 3.0, 4.0, 0.5, 0.6)
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 8
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 8, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 8.535223568679879
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 8, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 0.9000000000000056
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 8, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}}
+28-10-2021 23:51:17 [TestNG-method=testQueryId-1] INFO  io.olen4ixxx.triangle.repository.CustomRepository - queryList from repository: [Triangle = {id: 4, Point{1,00, 2,00}, Point{3,00, 4,00}, Point{0,50, 0,60}}]
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(2.0, 2.0, 3.0, 4.0, -5.0, -6.0)
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 9
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 9, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 25.672462265100137
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 9, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 3.0000000000000244
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 9, Point{2,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, -6,00}}
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(4.0, 2.0, 3.0, 4.0, -5.0, 6.0)
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 10
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 10, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.331137030531217
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: triangleSquare(Triangle = {id: 10, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - square: 7.000000000000005
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - Triangle created: Triangle = {id: 10, Point{4,00, 2,00}, Point{3,00, 4,00}, Point{-5,00, 6,00}}
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.entity.CustomTriangleFactory - CustomTriangleFactory: createCustomTriangle(3.0, 2.0, 3.0, 4.0, 5.0, -6.0)
+28-10-2021 23:51:17 [main] INFO  io.olen4ixxx.triangle.util.IdGenerator - Id generated: 11
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - TriangleCalculationService: trianglePerimeter(Triangle = {id: 11, Point{3,00, 2,00}, Point{3,00, 4,00}, Point{5,00, -6,00}})
+28-10-2021 23:51:17 [main] INFO  olen4ixxx.triangle.service.impl.TriangleCalculationService - perimeter: 20.44425027842089
